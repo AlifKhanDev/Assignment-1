@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.top-banner {
+	background-color: lightgrey;
+	padding-bottom: 2rem;
+	padding-top: 3rem;
+	margin-bottom: 9rem;
+}
+
+.banner-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+.banner-text {
+	text-align: right;
+	width: 50%;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.banner-text h1 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 65px;
+	line-height: 76px;
+	text-align: right;
+	color: #151414;
+}
+
+.banner-text p {
+	width: 80%;
+	margin-left: auto;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: right;
+	margin-top: 24px;
+	margin-bottom: 32px;
+}
+
+.banner-text button {
+	background: #f15b22;
+	border-radius: 5px;
+	border: none;
+	width: 160px;
+	height: 64px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #ffffff;
+}
+
+.banner-img {
+	width: 350px;
+}
+
+.Page-2 {
+	background-color: white;
+	display: flex;
+	margin-right: 20%;
+	margin-left: 9%;
+	margin-bottom: 9rem;
+	align-items: center;
+}
+
+.Page-2-img {
+	width: 400px;
+	margin-right: 60px;
+}
+
+.Page-2-text h1 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+}
+
+.Page-2-text p {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #444343;
+	width: 65%;
+	margin-top: 20px;
+}
+
+.my-failure-icon {
+	margin-left: 0.2rem;
+}
+
+.my-failure-icon div {
+	display: flex;
+	align-items: flex-end;
+	gap: 0.2rem;
+	font-size: 16px;
+}
+.my-plans,
+.positive-mindset {
+	margin-bottom: 9rem;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+.my-plans ~ h2 {
+	margin-bottom: 20px;
+}
+
+.my-plans-container {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.positive-mindset-container {
+	width: 100%;
+	height: 300px;
+	background-image: url(./images/positive-mindset.png);
+	position: relative;
+	background-size: 100%;
+	border-radius: 8px;
+}
+.positive-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+	border-radius: 8px;
+}
+.positive-text {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+.positive-text h2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+
+	color: #ffffff;
+}
+
+.positive-text button {
+	margin-top: 24px;
+	width: 160px;
+	height: 64px;
+	background: #ffffff;
+	border-radius: 5px;
+	border: none;
+	color: #f15b22;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: #f15b22;
+	cursor: pointer;
+}
+
+#footer {
+	background-color: #151414;
+	color: #ffffff;
+}
+.footer-container {
+	padding: 4rem;
+	display: flex;
+}
+.footer-container p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+.future {
+	width: 65%;
+}
+.future h3 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 53px;
+	color: #f8f8f8;
+}
+#subscribe h5 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 29px;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+#subscribe div input {
+	background: transparent;
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	width: 325px;
+	height: 30px;
+	font-size: 22px;
+	color: #ffffff;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+#subscribe button {
+	width: 170.11px;
+	height: 64px;
+	background: #ffffff;
+	border-radius: 8px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #f15b22;
+	border: none;
+	cursor: pointer;
+}
+#footer-text {
+	width: 50%;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.social-icons {
+	display: flex;
+	gap: 15px;
+	margin-top: 25px;
+}
+.social-icons a {
+	display: block;
+	width: 47px;
+	height: 47px;
+	background-color: #ffffff;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about-me {
+	margin-left: 4rem;
+	margin-right: 4rem;
+	margin-bottom: 9rem;
+}
+
+.about-img {
+	margin: auto;
+	width: 350px;
+}
+.about-img img {
+	width: 100%;
+}
+.about-text {
+	margin-top: 8px;
+}
+.about-text p {
+	margin-top: 8px;
+}
+.about-text a {
+	margin-top: 8px;
+	display: block;
+}
+.name-title {
+	font-size: 22px;
+	letter-spacing: 2px;
+	margin-top: 8px;
+}
